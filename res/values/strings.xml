@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="wallpapers">Bokeh Wallpapers</string>
+
+    <!-- Wallpaper showing Bokeh -->
+    <string name="bokeh">Bokeh Rainbow</string>
+
+    <string name="bokeh_desc">Translucent fading circles with rainbow colors</string>
+</resources>
