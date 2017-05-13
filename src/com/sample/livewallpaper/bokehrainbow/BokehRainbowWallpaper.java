@@ -104,8 +104,11 @@ public class BokehRainbowWallpaper extends AnimationWallpaper {
 					draw(c);
 				}
 			} finally {
-				if (c != null)
-					holder.unlockCanvasAndPost(c);
+				try {
+                    			if (c != null) holder.unlockCanvasAndPost(c);
+                		} catch (IllegalArgumentException exception){
+                    			exception.printStackTrace();
+               			}
 			}
 		}
 
